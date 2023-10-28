@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Merriweather:ital,wght@1,300&family=Oswald:wght@600&family=Teko:wght@400&display=swap');
+
+
+
+.item-button button {
+  margin-top: 10px;
+  width: 90px;
+  background-color: rgb(39, 38, 38);
+  color: aliceblue;
+  text-align: center;
+  font-weight: bold;
+}
+.incredecre {
+  cursor: pointer;
+}
+.card-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.d-categories {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 19px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.category {
+  font-family: "Oswald", sans-serif;
+  border: 3px solid rgb(40, 38, 38);
+  border-radius: 5px;
+  margin: 20px;
+  font-size: 19px;
+  font-weight: bold;
+  display: flex;
+  background-color: rgb(42, 39, 39);
+  color: rgb(228, 228, 199);
+  cursor: pointer;
+  transition: box-shadow 0.3s; /* Smooth transition for background-color, color, and box-shadow */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Initial box shadow */
+}
+
+.category:hover {
+  color: rgb(246, 244, 244);
+  box-shadow: 25px 25px 28px rgba(0, 0, 0, 0.3); /* New box shadow on hover */
+}
+.category {
+  text-align: center;
+}
+
+.category img {
+  max-width: 100px;
+  margin-left: 30px;
+}
+
+.category-name {
+  font-size: 13px;
+}
+
+.category-active {
+  font-size: 13px;
+}
+
+.itemcat {
+  border: 6px solid rgb(3, 3, 3);
+  border-radius: 5px;
+  background-color: rgb(76, 74, 90);
+}
+/* //==========================Register page================================================// */
+.register {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: rgb(219, 242, 243);
+  display: flex;
+  border: 15px solid black;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 450px;
+  padding: 100px;
+font-weight: bold;
+
+}
+.register input {
+  width: 300px !important;
+
+}
+.pos {
+  color: rgb(12, 12, 12);
+  font-family: 'Dela Gothic One', cursive;
+  font-weight: bold !important;
+  padding: 10px;
+ 
+}
+.form{
+  color: black !important;
+  font-weight: bold;
+}
+
+/* In your CSS or SCSS file */
+
+.Billtable{
+  border: 2px solid black;
+}
